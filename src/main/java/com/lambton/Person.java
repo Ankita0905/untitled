@@ -12,7 +12,7 @@ public abstract class Person
    private String gender;
 
 
-    public Person(int id, String firstName, String lastName, Date birthDate, String gender)
+    public Person()
     {
         this.id = id;
     }

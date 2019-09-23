@@ -19,6 +19,15 @@ public class MainExample
         p1=s1;
         p1.display();
 
-
+        Faculty f1=new Faculty(101,
+                "Pretish",
+                "patel",
+                LocalDate.now(),
+                "male",
+                "Professor",
+                (float) 1000.0,
+                "Android Developer");
+        p1=f1;
+        p1.display();
     }
 }
