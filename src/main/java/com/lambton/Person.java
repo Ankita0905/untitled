@@ -1,7 +1,6 @@
 package com.lambton;
 
 import java.time.LocalDate;
-import java.util.Date;
 
 public abstract class Person
 {
@@ -12,9 +11,9 @@ public abstract class Person
    private String gender;
 
 
-    public Person()
+    public Person(int id)
     {
-        this.id = id;
+        this.id = this.id;
     }
 
     public Person(int id, String firstName, String lastName, LocalDate birthDate, String gender)
